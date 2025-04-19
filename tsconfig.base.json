@@ -16,6 +16,10 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "paths": {
+      "@error-handler": ["packages/error-handler/src/index.ts"],
+      "@error-handler/*": ["packages/error-handler/src/*"]
+    }
   }
 }
